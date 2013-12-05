@@ -22,6 +22,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'saltstack/salt-vim'
 Bundle 'scrooloose/nerdtree'
+Bundle 'jmcantrell/vim-virtualenv'
 " vim-scripts repos
 Bundle 'L9'
 Bundle 'FuzzyFinder'
