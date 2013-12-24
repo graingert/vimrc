@@ -20,6 +20,11 @@ Bundle 'davidhalter/jedi-vim'
 Bundle 'bling/vim-airline'
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
+let g:syntastic_python_checkers=['python', 'pep8', 'pyflakes', 'pylint']
+let g:syntastic_aggregate_errors = 1
+let g:syntastic_id_checkers = 1
+let g:syntastic_error_symbol = '✗'
+let g:syntastic_warning_symbol = '⚠'
 Bundle 'saltstack/salt-vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jmcantrell/vim-virtualenv'
