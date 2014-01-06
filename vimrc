@@ -28,6 +28,7 @@ let g:syntastic_warning_symbol = '⚠'
 Bundle 'saltstack/salt-vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jmcantrell/vim-virtualenv'
+Bundle 'groenewege/vim-less'
 " vim-scripts repos
 Bundle 'L9'
 Bundle 'FuzzyFinder'
@@ -52,4 +53,5 @@ set list
 
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 colorcolumn=80
 autocmd FileType html setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType less setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
 set mouse=a
