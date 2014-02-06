@@ -25,12 +25,11 @@ let g:syntastic_aggregate_errors = 1
 let g:syntastic_id_checkers = 1
 let g:syntastic_error_symbol = '✗'
 let g:syntastic_warning_symbol = '⚠'
-Bundle 'klen/python-mode'
-let g:pymode_motion = 1
-let g:pymode_indent = 1
-let g:pymode_folding = 0
+Bundle 'scrooloose/nerdcommenter'
 Bundle 'saltstack/salt-vim'
 Bundle 'scrooloose/nerdtree'
+let NERDTreeBookmarksFile=expand("$HOME/.vim-NERDTreeBookmarks")
+let NERDTreeShowBookmarks=1
 Bundle 'jmcantrell/vim-virtualenv'
 Bundle 'groenewege/vim-less'
 " vim-scripts repos
@@ -58,4 +57,5 @@ set list
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 colorcolumn=80
 autocmd FileType html setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType less setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
+autocmd Filetype javascript setlocal expandtab tabstop=4 shiftwidth=4
 set mouse=a
