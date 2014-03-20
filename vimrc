@@ -20,7 +20,7 @@ Bundle 'davidhalter/jedi-vim'
 Bundle 'bling/vim-airline'
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
-let g:syntastic_python_checkers=['python', 'pep8', 'pyflakes', 'pylint']
+let g:syntastic_python_checkers=['python', 'pep8', 'pep257', 'py3kwarn', 'frosted',]
 let g:syntastic_aggregate_errors = 1
 let g:syntastic_id_checkers = 1
 let g:syntastic_error_symbol = '✗'
@@ -58,4 +58,5 @@ autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 colorcolumn=80
 autocmd FileType html setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType less setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
 autocmd Filetype javascript setlocal expandtab tabstop=4 shiftwidth=4
+autocmd Filetype cucumber setlocal expandtab tabstop=4 shiftwidth=4 colorcolumn=80
 set mouse=a
