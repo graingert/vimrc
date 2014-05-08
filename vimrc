@@ -17,6 +17,7 @@ Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'tpope/vim-rails.git'
 Bundle 'tomasr/molokai'
 Bundle 'davidhalter/jedi-vim'
+let g:jedi#show_call_signatures = 0
 Bundle 'bling/vim-airline'
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
