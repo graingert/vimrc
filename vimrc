@@ -1,12 +1,12 @@
 set nocompatible              " be iMproved
 filetype off                  " required!
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle
 " required! 
-Bundle 'gmarik/vundle'
+Bundle 'gmarik/Vundle.vim'
 
 " My bundles here:
 "
@@ -36,6 +36,8 @@ Bundle 'groenewege/vim-less'
 " vim-scripts repos
 Bundle 'L9'
 Bundle 'FuzzyFinder'
+
+call vundle#end()
 filetype plugin indent on     " required!
 "
 " Brief help
@@ -50,6 +52,8 @@ filetype plugin indent on     " required!
 
 set t_Co=256
 colorscheme molokai
+syntax on
+set backspace=indent,eol,start
 set number
 
 set listchars=tab:>─,trail:·,extends:>,precedes:<
