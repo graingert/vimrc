@@ -18,7 +18,8 @@ Bundle 'tpope/vim-rails.git'
 Bundle 'tomasr/molokai'
 Bundle 'davidhalter/jedi-vim'
 let g:jedi#show_call_signatures = 0
-Bundle 'bling/vim-airline'
+Bundle 'itchyny/lightline.vim'
+set laststatus=2
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
 let g:syntastic_python_checkers=['python', 'pep8', 'pep257', 'py3kwarn', 'frosted',]
