@@ -60,7 +60,7 @@ set number
 set listchars=tab:>─,trail:·,extends:>,precedes:<
 set list
 
-autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 colorcolumn=80
+autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 colorcolumn=120
 autocmd Filetype dosini setlocal colorcolumn=80
 autocmd Filetype tex setlocal expandtab tabstop=2 shiftwidth=2 colorcolumn=80 spell spelllang=en_gb
 autocmd FileType html setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
