@@ -37,6 +37,7 @@ Bundle 'groenewege/vim-less'
 " vim-scripts repos
 Bundle 'L9'
 Bundle 'FuzzyFinder'
+Bundle 'rking/ag.vim'
 
 call vundle#end()
 filetype plugin indent on     " required!
