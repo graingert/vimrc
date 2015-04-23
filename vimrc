@@ -32,7 +32,6 @@ Bundle 'saltstack/salt-vim'
 Bundle 'scrooloose/nerdtree'
 let NERDTreeBookmarksFile=expand("$HOME/.vim-NERDTreeBookmarks")
 let NERDTreeShowBookmarks=1
-Bundle 'jmcantrell/vim-virtualenv'
 Bundle 'groenewege/vim-less'
 " vim-scripts repos
 Bundle 'L9'
