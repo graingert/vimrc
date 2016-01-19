@@ -21,6 +21,13 @@ let g:jedi#show_call_signatures = 0
 Bundle 'itchyny/lightline.vim'
 set laststatus=2
 Bundle 'kien/ctrlp.vim'
+let g:ctrlp_user_command = {
+    \ 'types': {
+        \ 1: ['.git', 'cd %s && git ls-files'],
+        \ 2: ['.hg', 'hg --cwd %s locate -I .'],
+        \ },
+    \ 'fallback': 'find %s -type f'
+    \ }
 Bundle 'scrooloose/syntastic'
 let g:syntastic_python_checkers=['python', 'flake8', 'pep8', 'pep257', 'py3kwarn', 'frosted',]
 let g:syntastic_javascript_checkers = ['eslint']
