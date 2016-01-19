@@ -42,6 +42,7 @@ let NERDTreeBookmarksFile=expand("$HOME/.vim-NERDTreeBookmarks")
 let NERDTreeShowBookmarks=1
 Bundle 'groenewege/vim-less'
 Bundle 'hdima/python-syntax'
+Plugin 'leafgarland/typescript-vim'
 
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
