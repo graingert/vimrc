@@ -47,6 +47,7 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'luochen1990/rainbow'
 let g:rainbow_active = 1
 Plugin 'derekwyatt/vim-scala'
+Plugin 'Raimondi/delimitMate'
 
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
