@@ -30,7 +30,8 @@ let g:ctrlp_user_command = {
     \ }
 Bundle 'scrooloose/syntastic'
 let g:syntastic_python_checkers=['python', 'flake8', 'pep8', 'pep257', 'py3kwarn', 'frosted',]
-let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_javascript_checkers = ['eslint', 'jscs']
+let g:syntastic_javascript_eslint_exec = 'eslint_d'
 let g:syntastic_aggregate_errors = 1
 let g:syntastic_id_checkers = 1
 let g:syntastic_error_symbol = '✗'
@@ -43,6 +44,9 @@ let NERDTreeShowBookmarks=1
 Bundle 'groenewege/vim-less'
 Bundle 'hdima/python-syntax'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'luochen1990/rainbow'
+let g:rainbow_active = 1
+Plugin 'derekwyatt/vim-scala'
 
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
@@ -80,6 +84,6 @@ autocmd Filetype tex setlocal expandtab tabstop=2 shiftwidth=2 colorcolumn=80 sp
 autocmd FileType html setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType htmldjango setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType less setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
-autocmd Filetype javascript setlocal expandtab tabstop=4 shiftwidth=4
+autocmd Filetype javascript setlocal expandtab tabstop=2 shiftwidth=2
 autocmd Filetype cucumber setlocal expandtab tabstop=4 shiftwidth=4 colorcolumn=80
 set mouse=a
