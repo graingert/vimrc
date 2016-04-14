@@ -52,6 +52,9 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 
+Plugin 'othree/yajs.vim'
+Plugin 'othree/es.next.syntax.vim'
+
 " vim-scripts repos
 Bundle 'L9'
 Bundle 'FuzzyFinder'
