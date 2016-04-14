@@ -6,21 +6,21 @@ call vundle#begin()
 
 " let Vundle manage Vundle
 " required! 
-Bundle 'gmarik/Vundle.vim'
+Plugin 'gmarik/Vundle.vim'
 
 " My bundles here:
 "
 " original repos on GitHub
-Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-Bundle 'tpope/vim-rails.git'
-Bundle 'tomasr/molokai'
-Bundle 'davidhalter/jedi-vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'tpope/vim-rails.git'
+Plugin 'tomasr/molokai'
+Plugin 'davidhalter/jedi-vim'
 let g:jedi#show_call_signatures = 0
-Bundle 'itchyny/lightline.vim'
+Plugin 'itchyny/lightline.vim'
 set laststatus=2
-Bundle 'kien/ctrlp.vim'
+Plugin 'kien/ctrlp.vim'
 let g:ctrlp_user_command = {
     \ 'types': {
         \ 1: ['.git', 'cd %s && git ls-files'],
@@ -28,7 +28,7 @@ let g:ctrlp_user_command = {
         \ },
     \ 'fallback': 'find %s -type f'
     \ }
-Bundle 'scrooloose/syntastic'
+Plugin 'scrooloose/syntastic'
 let g:syntastic_python_checkers=['python', 'flake8', 'pep8', 'pep257', 'py3kwarn', 'frosted',]
 let g:syntastic_javascript_checkers = ['eslint', 'jscs']
 let g:syntastic_javascript_eslint_exec = 'eslint_d'
@@ -36,13 +36,13 @@ let g:syntastic_aggregate_errors = 1
 let g:syntastic_id_checkers = 1
 let g:syntastic_error_symbol = '✗'
 let g:syntastic_warning_symbol = '⚠'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'saltstack/salt-vim'
-Bundle 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'saltstack/salt-vim'
+Plugin 'scrooloose/nerdtree'
 let NERDTreeBookmarksFile=expand("$HOME/.vim-NERDTreeBookmarks")
 let NERDTreeShowBookmarks=1
-Bundle 'groenewege/vim-less'
-Bundle 'hdima/python-syntax'
+Plugin 'groenewege/vim-less'
+Plugin 'hdima/python-syntax'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'luochen1990/rainbow'
 let g:rainbow_active = 1
@@ -56,9 +56,9 @@ Plugin 'othree/yajs.vim'
 Plugin 'othree/es.next.syntax.vim'
 
 " vim-scripts repos
-Bundle 'L9'
-Bundle 'FuzzyFinder'
-Bundle 'rking/ag.vim'
+Plugin 'L9'
+Plugin 'FuzzyFinder'
+Plugin 'rking/ag.vim'
 
 call vundle#end()
 filetype plugin indent on     " required!
@@ -70,7 +70,7 @@ filetype plugin indent on     " required!
 " :BundleClean(!)      - confirm (or auto-approve) removal of unused bundles
 "
 " see :h vundle for more details or wiki for FAQ
-" NOTE: comments after Bundle commands are not allowed.
+" NOTE: comments after Plugin commands are not allowed.
 "
 
 set t_Co=256
