@@ -52,6 +52,8 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 
+Plugin 'jmcantrell/vim-virtualenv'
+
 Plugin 'othree/yajs.vim'
 Plugin 'othree/es.next.syntax.vim'
 
