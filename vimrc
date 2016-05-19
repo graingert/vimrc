@@ -81,6 +81,7 @@ colorscheme molokai
 syntax on
 set backspace=indent,eol,start
 set number
+set relativenumber
 
 set listchars=tab:>─,trail:·,extends:>,precedes:<
 set list
