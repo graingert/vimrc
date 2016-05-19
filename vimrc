@@ -102,7 +102,7 @@ function! DelEmptyLineAbove()
     let l:line = getline(line(".") - 1)
     if l:line =~ '^s*$'
         let l:colsave = col(".")
-        .-1d
+        .-1delete _
         silent normal! <C-y>
         call cursor(line("."), l:colsave)
     endif
@@ -126,7 +126,7 @@ function! DelEmptyLineBelow()
     let l:line = getline(line(".") + 1)
     if l:line =~ '^s*$'
         let l:colsave = col(".")
-        .+1d
+        .+1delete _
         ''
         call cursor(line("."), l:colsave)
     endif
