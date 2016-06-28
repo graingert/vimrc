@@ -95,6 +95,7 @@ autocmd FileType htmldjango setlocal expandtab shiftwidth=2 tabstop=2 softtabsto
 autocmd FileType less setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
 autocmd Filetype javascript setlocal expandtab tabstop=2 shiftwidth=2
 autocmd Filetype cucumber setlocal expandtab tabstop=4 shiftwidth=4 colorcolumn=80
+autocmd Filetype markdown setlocal expandtab colorcolumn=80 tw=79
 set mouse=a
 
 
