@@ -59,8 +59,9 @@ Plugin 'jmcantrell/vim-virtualenv'
 Plugin 'othree/yajs.vim'
 Plugin 'othree/es.next.syntax.vim'
 Plugin 'ternjs/tern_for_vim'
+Plugin 'elzr/vim-json'
 
-Plugin 'Yggdroot/indentLine'
+"Plugin 'Yggdroot/indentLine'
 
 " vim-scripts repos
 Plugin 'L9'
@@ -97,6 +98,7 @@ autocmd FileType html setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType htmldjango setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType less setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
 autocmd Filetype javascript setlocal expandtab tabstop=2 shiftwidth=2
+autocmd Filetype json setlocal expandtab tabstop=4 shiftwidth=4
 autocmd Filetype cucumber setlocal expandtab tabstop=4 shiftwidth=4 colorcolumn=80
 autocmd Filetype markdown setlocal expandtab colorcolumn=80 tw=79
 set mouse=a
