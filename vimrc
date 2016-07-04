@@ -21,8 +21,7 @@ Plugin 'davidhalter/jedi-vim'
 let g:jedi#show_call_signatures = 0
 Plugin 'itchyny/lightline.vim'
 set laststatus=2
-Plugin 'wincent/command-t'
-nn <silent> <c-p> :<c-u>CommandT<cr>
+Plugin 'kien/ctrlp.vim'
 let g:ctrlp_user_command = {
     \ 'types': {
         \ 1: ['.git', 'cd %s && git ls-files'],
