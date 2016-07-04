@@ -21,10 +21,10 @@ Plugin 'davidhalter/jedi-vim'
 let g:jedi#show_call_signatures = 0
 Plugin 'itchyny/lightline.vim'
 set laststatus=2
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 let g:ctrlp_user_command = {
     \ 'types': {
-        \ 1: ['.git', 'cd %s && git ls-files'],
+        \ 1: ['.git', 'cd %s && git ls-files -co --exclude-standard'],
         \ 2: ['.hg', 'hg --cwd %s locate -I .'],
         \ },
     \ 'fallback': 'find %s -type f'
