@@ -32,7 +32,7 @@ let g:ctrlp_user_command = {
     \ }
 Plugin 'scrooloose/syntastic'
 let g:syntastic_python_checkers=['python', 'flake8', 'pep8', 'pep257', 'py3kwarn', 'frosted',]
-let g:syntastic_javascript_checkers = ['eslint', 'jscs']
+let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_javascript_eslint_exec = 'eslint_d'
 let g:syntastic_aggregate_errors = 1
 let g:syntastic_id_checkers = 1
