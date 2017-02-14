@@ -50,8 +50,6 @@ Plugin 'luochen1990/rainbow'
 let g:rainbow_active = 1
 
 Plugin 'derekwyatt/vim-scala'
-Plugin 'ensime/ensime-vim'
-autocmd BufWritePost *.scala silent :EnTypeCheck
 nnoremap <localleader>t :EnTypeCheck<CR>
 au FileType scala nnoremap <localleader>df :EnDeclarationSplit v<CR>
 
