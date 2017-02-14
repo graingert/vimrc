@@ -30,7 +30,8 @@ let g:ctrlp_user_command = {
     \ 'fallback': 'find %s -type f'
     \ }
 Plugin 'scrooloose/syntastic'
-let g:syntastic_python_checkers=['python', 'flake8', 'pep8', 'pep257', 'py3kwarn', 'frosted',]
+Plugin 'mtscout6/syntastic-local-eslint.vim'
+let g:syntastic_python_checkers=['python', 'mypy', 'flake8', 'pep8', 'pep257', 'py3kwarn', 'frosted',]
 let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_javascript_eslint_exec = 'eslint_d'
 let g:syntastic_aggregate_errors = 1
