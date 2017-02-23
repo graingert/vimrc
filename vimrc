@@ -29,16 +29,13 @@ let g:ctrlp_user_command = {
         \ },
     \ 'fallback': 'find %s -type f'
     \ }
-Plugin 'scrooloose/syntastic'
-Plugin 'mtscout6/syntastic-local-eslint.vim'
-let g:syntastic_python_checkers=['python', 'mypy', 'flake8', 'pep8', 'pep257', 'py3kwarn', 'frosted',]
-let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_javascript_eslint_exec = 'eslint_d'
-let g:syntastic_aggregate_errors = 1
-let g:syntastic_id_checkers = 1
-let g:syntastic_error_symbol = '✗'
-let g:syntastic_warning_symbol = '⚠'
-let g:syntastic_always_populate_loc_list = 1
+Plugin 'w0rp/ale'
+let g:ale_javascript_eslint_executable = 'eslint_d'
+let g:ale_lint_on_save = 1
+let g:ale_sign_error = '✗'
+let g:ale_sign_warning = '⚠'
+nmap <silent> <C-k> <Plug>(ale_previous_wrap)
+nmap <silent> <C-j> <Plug>(ale_next_wrap)
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'saltstack/salt-vim'
 Plugin 'scrooloose/nerdtree'
