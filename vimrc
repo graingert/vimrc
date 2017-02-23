@@ -38,6 +38,7 @@ let g:syntastic_aggregate_errors = 1
 let g:syntastic_id_checkers = 1
 let g:syntastic_error_symbol = '✗'
 let g:syntastic_warning_symbol = '⚠'
+let g:syntastic_always_populate_loc_list = 1
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'saltstack/salt-vim'
 Plugin 'scrooloose/nerdtree'
