@@ -17,8 +17,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'tomasr/molokai'
-Plugin 'davidhalter/jedi-vim'
-let g:jedi#show_call_signatures = 0
+Plugin 'maralla/completor.vim'
 Plugin 'itchyny/lightline.vim'
 set laststatus=2
 Plugin 'ctrlpvim/ctrlp.vim'
