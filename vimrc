@@ -97,7 +97,9 @@ autocmd Filetype dosini setlocal colorcolumn=80
 autocmd Filetype tex setlocal expandtab tabstop=2 shiftwidth=2 colorcolumn=80 spell spelllang=en_gb
 autocmd FileType html setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType htmldjango setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
-autocmd FileType less setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
+autocmd FileType less setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType scss setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType css setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 autocmd Filetype javascript setlocal expandtab tabstop=2 shiftwidth=2 colorcolumn=80
 autocmd Filetype json setlocal expandtab tabstop=4 shiftwidth=4
 autocmd Filetype cucumber setlocal expandtab tabstop=4 shiftwidth=4 colorcolumn=80
