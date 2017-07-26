@@ -17,7 +17,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'tomasr/molokai'
-Plugin 'maralla/completor.vim'
+Plugin 'graingert/completor.vim'
 Plugin 'itchyny/lightline.vim'
 set laststatus=2
 Plugin 'ctrlpvim/ctrlp.vim'
