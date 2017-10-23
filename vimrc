@@ -99,6 +99,8 @@ set relativenumber
 set listchars=tab:>─,trail:·,extends:>,precedes:<
 set list
 
+au BufNewFile,BufRead *.mjs set filetype=javascript
+
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 colorcolumn=80
 autocmd Filetype dosini setlocal colorcolumn=80
 autocmd Filetype tex setlocal expandtab tabstop=2 shiftwidth=2 colorcolumn=80 spell spelllang=en_gb
