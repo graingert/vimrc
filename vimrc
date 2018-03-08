@@ -64,7 +64,6 @@ Plugin 'jmcantrell/vim-virtualenv'
 
 Plugin 'othree/yajs.vim'
 Plugin 'othree/es.next.syntax.vim'
-Plugin 'ternjs/tern_for_vim'
 Plugin 'elzr/vim-json'
 
 Plugin 'elmcast/elm-vim'
