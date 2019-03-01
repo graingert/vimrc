@@ -12,6 +12,7 @@ Plugin 'VundleVim/Vundle.vim'
 "
 " original repos on GitHub
 Plugin 'sheerun/vim-polyglot'
+set nofoldenable
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-rhubarb'
 Plugin 'shumphrey/fugitive-gitlab.vim'
